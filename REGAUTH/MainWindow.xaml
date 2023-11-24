@@ -1,0 +1,25 @@
+﻿<Window x:Class="REGAUTH.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:REGAUTH"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="500
+        ">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FFA50FFF" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="MENU" HorizontalAlignment="Center" Height="63" Margin="0,120,0,0" VerticalAlignment="Top" Width="312" HorizontalContentAlignment="Center" FontSize="36" Foreground="#FFF1FF00" FontFamily="Thinking Of Betty Light"/>
+        <Button x:Name="REGISTER" Content="REGISTER" HorizontalAlignment="Left" Height="40" Margin="31,270,0,0" VerticalAlignment="Top" Width="140" Foreground="#FFDA00FF" FontSize="18" FontFamily="Comic Sans MS" Background="#FFF1FF00" Click="REGISTER_Click"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="690,376,0,0" VerticalAlignment="Top" Width="0"/>
+        <Label Content="AUTH/REG" HorizontalAlignment="Center" Height="63" Margin="0,192,0,0" VerticalAlignment="Top" Width="312" HorizontalContentAlignment="Center" FontSize="18" FontFamily="Comic Sans MS" Foreground="#FFFDFF00"/>
+        <Button x:Name="AUTH" Content="LOGIN" HorizontalAlignment="Left" Height="40" Margin="319,270,0,0" VerticalAlignment="Top" Width="140" Foreground="Red" FontSize="18" FontFamily="Comic Sans MS" Background="#FFEDEDED" Click="AUTH_Click"/>
+
+
+    </Grid>
+</Window>
